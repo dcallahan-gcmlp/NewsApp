@@ -1,0 +1,91 @@
+﻿@model NewsApplication.Models.ViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<script type="text/javascript" src="@Url.Content("~/Scripts/jquery-1.7.1.js")"></script>
+<script type="text/javascript" src="@Url.Content("~/Scripts/bootstrap.min.js")"></script>
+
+<div id="homePageContainer">
+    
+    <h1 id="headerHome">Daily Press</h1>
+    
+    
+    <div id="mainContainer">
+        <div id="jumpContainer">
+            <div class="btn-group-vertical" id="nav">
+                @foreach (var sectionType in Model.Sections)
+                {
+                    <a href="#@sectionType.Section" type="button" class="btn btn-default">@sectionType.Section</a>
+                }
+            </div>
+        </div>
+    
+
+        <div id="articleDateContainer">
+            <div id="dateSection">
+                @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @class = "formerDate", role="form" }))
+                {
+                    <div class="form-group" id="dateForm">
+                        <label for="datepicker">Previous Day</label>
+                        <input name="date" type="text" class="form-control" id="datepicker"/>
+                    </div>
+                    <button type="submit" class="btn btn-default">Enter</button>
+                }
+            </div>
+        </div>
+        <div id="articleContainer">
+            <div id="articleSection">
+                @foreach (var sectionType in Model.Sections)
+                {
+                    <div id="@sectionType.Section">
+                        <h3>@sectionType.Section</h3>
+                        @foreach (var article in Model.Articles)
+                        {
+                            if (article.Section == sectionType.Section)
+                            {
+                                <div class="article">
+                                    <h2>
+                                        <a href="@article.Url" style="text-decoration: none; margin-top: 1px">@article.Title</a>
+                                    </h2>
+                                    <h6>
+                                        @article.Blurb
+                                    </h6>
+                                    <br />
+                                    <a id="comments" data-toggle="collapse" href="#articleCommentsSection @article.ArticleContentId">Comments...</a>
+                                    <div id="articleCommentsSection @article.ArticleContentId" class="collapse in" style="padding-top: 2%;">
+                                        <div id="articleComments">
+                                            @if (article.ArticleComments != null)
+                                            {
+                                                foreach (var comment in article.ArticleComments)
+                                                {
+                                                    using (Html.BeginForm("Delete", "Comment", FormMethod.Post, new {@class = "deleteComment-form", role = "form"}))
+                                                    {
+                                                        <div id="commentContainer">
+                                                            <p>@comment.Body</p>
+                                                            <input type="hidden" value="@comment.ArticleCommentsId" name="ArticleCommentsId"/>
+                                                            <button type="submit" class="btn btn-default">Delete</button>
+                                                        </div>
+                                                    }
+                                                }
+                                            }
+                                        </div>
+                                        @using (Html.BeginForm("Create", "Comment", FormMethod.Post, new { @class = "comment-form", role="form" }))
+                                        {
+                                            <div class="form-group">
+                                                <input type="hidden" value="@article.ArticleContentId" name="ArticleContentId"/>
+                                                <textarea name="Body" class="form-control" id="comment-text" rows="4" cols="50" placeholder="Comment..."></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-default">Comment</button>
+                                        }
+                                        <br/>
+                                    </div>
+                                </div>   
+                            }
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

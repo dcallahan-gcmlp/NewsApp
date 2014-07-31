@@ -1,0 +1,27 @@
+﻿@using System.Web.Optimization
+@using DotNetOpenAuth.OpenId.Extensions.AttributeExchange
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Daily Press</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/bootstrap")
+        @Styles.Render("~/Content/bootstrapmin")
+        @Styles.Render("~/Content/custom")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        <div id="content-container">
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+            @Scripts.Render("~/bundles/jquery")
+            @Scripts.Render("~/bundles/jqueryui")
+            @Scripts.Render("~/bundles/jqueryval")
+            @Scripts.Render("~/bundles/custom")
+            @RenderSection("scripts", required: false)
+        </div>
+    </body>
+</html>

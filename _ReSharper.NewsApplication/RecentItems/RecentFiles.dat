@@ -1,0 +1,66 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Crawler/f:PageStructure.cs" caret="73" fromTop="3" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Crawler/f:ScoreStructure.cs" caret="38" fromTop="2" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:App_Start/f:AuthConfig.cs" caret="0" fromTop="0" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:App_Start/f:BundleConfig.cs" caret="992" fromTop="23" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/f:Web.config" caret="0" fromTop="0" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Views/f:Web.config" caret="0" fromTop="0" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Content/f:bootstrap.css" caret="237" fromTop="7" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Content/f:bootstrap.min.css" caret="0" fromTop="0" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Views/d:Shared/f:_Layout.cshtml" caret="998" fromTop="24" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Models/f:User.cs" caret="0" fromTop="0" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Content/f:custom.css" caret="1388" fromTop="0" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Views/d:Shared/f:Error.cshtml" caret="0" fromTop="0" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Scripts/f:Comment.js" caret="1445" fromTop="11" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Scripts/f:Login.js" caret="196" fromTop="11" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Controllers/f:NewController.cs" caret="448" fromTop="21" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Views/d:New/f:Index.cshtml" caret="1097" fromTop="24" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Views/d:Register/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Controllers/f:CommentController.cs" caret="0" fromTop="0" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Scripts/f:Register.js" caret="0" fromTop="0" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Controllers/f:RegisterController.cs" caret="0" fromTop="0" />
+    <File id="073C9240-DA3D-4049-ADEB-BF6B2C9A878C/f:packages.config" caret="0" fromTop="0" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Models/f:ArticleViewModel.cs" caret="1948" fromTop="32" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Crawler/f:RunProgram.cs" caret="18" fromTop="0" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Crawler/f:Crawler.cs" caret="6945" fromTop="55" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Crawler/f:DataPull.cs" caret="5175" fromTop="99" />
+    <File id="073C9240-DA3D-4049-ADEB-BF6B2C9A878C/f:Program.cs" caret="4785" fromTop="89" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Crawler/f:Scorer.cs" caret="1510" fromTop="27" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Crawler/f:WebPage.cs" caret="109" fromTop="4" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Views/d:Home/f:Index.cshtml" caret="536" fromTop="16" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Controllers/f:HomeController.cs" caret="474" fromTop="16" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Views/f:_ViewStart.cshtml" caret="0" fromTop="0" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Models/f:User.cs" caret="2575" fromTop="26" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Controllers/f:CommentController.cs" caret="845" fromTop="29" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Content/f:Site.css" caret="15081" fromTop="34" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/f:Web.config" caret="921" fromTop="13" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Scripts/f:Archive.js" caret="74" fromTop="3" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Views/d:Register/f:Index.cshtml" caret="718" fromTop="16" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Scripts/f:Comment.js" caret="1362" fromTop="27" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Models/f:Comment.cs" caret="1009" fromTop="20" />
+    <File id="073C9240-DA3D-4049-ADEB-BF6B2C9A878C/f:App.config" caret="319" fromTop="5" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:App_Start/f:BundleConfig.cs" caret="992" fromTop="23" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Crawler/f:PageStructure.cs" caret="73" fromTop="3" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Crawler/f:RunProgram.cs" caret="18" fromTop="0" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Crawler/f:ScoreStructure.cs" caret="25" fromTop="1" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Crawler/f:Scorer.cs" caret="1490" fromTop="29" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Content/f:bootstrap.css" caret="237" fromTop="7" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Scripts/f:Register.js" caret="275" fromTop="15" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Views/d:Shared/f:_Layout.cshtml" caret="998" fromTop="24" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Scripts/f:Login.js" caret="41" fromTop="3" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Content/f:custom.css" caret="1388" fromTop="16" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Controllers/f:RegisterController.cs" caret="590" fromTop="26" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Controllers/f:NewController.cs" caret="448" fromTop="21" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Views/d:New/f:Index.cshtml" caret="1097" fromTop="24" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Models/f:ArticleViewModel.cs" caret="3189" fromTop="20" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Views/d:Home/f:Index.cshtml" caret="690" fromTop="7" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Crawler/f:DataPull.cs" caret="5555" fromTop="23" />
+    <File id="073C9240-DA3D-4049-ADEB-BF6B2C9A878C/f:Program.cs" caret="4539" fromTop="10" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Crawler/f:Crawler.cs" caret="5226" fromTop="25" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Crawler/f:WebPage.cs" caret="109" fromTop="4" />
+    <File id="4F818513-1654-4423-9CC0-2E5B90BA98ED/d:Controllers/f:HomeController.cs" caret="474" fromTop="16" />
+  </RecentEdits>
+</RecentFiles>

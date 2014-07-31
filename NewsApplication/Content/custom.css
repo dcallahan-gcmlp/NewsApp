@@ -1,0 +1,120 @@
+﻿
+
+#indexContainer {
+    margin: 0 auto;
+    width: 90%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 4%;
+}
+
+#homePageContainer {
+    margin: 0 auto;
+    width: 90%;
+    padding-left: 3%;
+    padding-right: 3%
+}
+
+#loginFormIndex {
+    margin: 0 auto;
+    width: 35%;
+    padding-top: 7%;
+    padding-left: 2%;
+    padding-right: 2%
+}
+
+#header {
+    margin: 0 auto;
+    padding: 15% 2% 1% 2%;
+    color: #2a6496;
+    width: 35%;
+    text-align: center
+}
+
+#headerHome {
+    margin: 0 auto;
+    padding: 5% 2% 8% 2%;
+    color: #2a6496;
+    width: 35%;
+    text-align: center
+}
+
+#registerForm {
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 7%;
+    padding-left: 2%;
+    padding-right: 2%
+}
+
+#mainContainer {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* jumpContainer, articleContainer, articleDateContainer all within mainContainer*/
+#jumpContainer {
+    position: fixed;
+    float: left;
+    padding-top: 0%;
+}
+
+#nav {
+    padding-left: 4%;
+    padding-right: 2%;    
+}
+
+#articleContainer {
+    padding-top: 0%;
+    padding-bottom: 100px;
+}
+
+/* in articleContainer */
+#articleSection {
+    margin: 0 auto;
+    padding-left: 4%;
+    padding-right: 9%;
+    width: 60%;
+}
+
+#articleDateContainer {
+    padding-top: 0%;
+    float: right;
+}
+
+/* in articleDateContainer */
+#dateSection {
+    float: right;
+    width: 80%;
+    height: 100%;
+}
+
+/* ------------------------------------------------------------- */
+
+#commentContainer {
+    word-wrap: break-word;
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+
+#articleCommments {
+    padding: 4%
+}
+
+#ui-datepicker-div {
+    background-color: white;
+}
+
+.error {
+    color: red;
+    font-weight: normal;
+}
+
+#comments {
+    color: #858585;
+}
+
+a:visited {
+    color: #2a6496;
+}
